@@ -11,11 +11,14 @@ body {
     padding-right: 15;
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
 }
 .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 40px;
 }
 .nav {
     display: flex;
@@ -49,4 +52,40 @@ body {
 .nav>li>a {
     text-decoration: none;
     color: #494949;
+}
+.banner {
+    background-image: url('../image/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    padding-top: 260px;
+    padding-bottom: 285px;
+}
+.pizza {
+    position: absolute;
+    right:0px;
+    top: -250px;
+}
+.title {
+    font-size: 50px;
+}
+.description {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 570px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24px;
+}
+.btn {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    padding: 16px 0px;
+    max-width: 190px;
+    text-align: center;
 }
